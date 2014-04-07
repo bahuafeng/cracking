@@ -42,6 +42,15 @@ public class Node<E> {
 		tail.next = node;		
 	}
 	
+	public void appendToTail(Node<E> node){
+		Node<E> tail = this;
+		
+		while(tail.next != null){
+			tail = tail.next;
+		}		
+		tail.next = node;		
+	}
+	
 	public int size(){
 		int size = 1;
 		Node<E> p = this;
