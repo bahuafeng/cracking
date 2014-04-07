@@ -2,7 +2,7 @@ package cracking.list;
 
 import java.util.HashMap;
 
-import util.Node;
+import cracking.util.Node;
 
 public class DeleteDups {
 	public static void deleteDups(Node<Integer> p){
