@@ -16,6 +16,9 @@ public class Node<E> {
 		data = e;
 	}
 	
+	public Node(){
+	}
+	
 	public Node<E> next(){
 		return next;
 	}
